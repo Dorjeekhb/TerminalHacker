@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="🔍 Select a node to connect"
+        android:textColor="#33FF33"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:typeface="monospace" />
+
+    <ListView
+        android:id="@+id/node_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#33FF33"
+        android:dividerHeight="1dp"
+        android:cacheColorHint="#000000" />
+</LinearLayout>

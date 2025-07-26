@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/terminal_output"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="#33FF33"
+        android:textSize="16sp"
+        android:typeface="monospace"
+        android:scrollbars="vertical"
+        android:text=""/>
+
+    <EditText
+        android:id="@+id/terminal_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="> Enter command"
+        android:inputType="text"
+        android:textColor="#33FF33"
+        android:textColorHint="#009900"
+        android:textSize="16sp"
+        android:typeface="monospace"
+        android:background="#000000"
+        android:singleLine="true" />
+</LinearLayout>
